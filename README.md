@@ -1,2 +1,2 @@
 # hello-world
-My first repository since longtime ago
+Une démo de Git
