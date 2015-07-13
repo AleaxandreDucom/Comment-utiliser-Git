@@ -1,0 +1,40 @@
+/**
+ * Site test Git / Github
+ * Technologie HTML 5 / CSS3
+ *
+ * @project     hello-world
+ * @namefile    style.css
+ * @fileversion 1.0.0
+ * @cssversion  css3
+ * @author      Christophe Malo
+ * @copyright   2015 by the author
+ * @license     no license - free to use - just link to my github - Thanks :)
+ * @mygithub    https://github.com/ChristopheMalo  
+*/
+
+/**
+ * -------------------------
+ * Styles génériques
+ * -------------------------
+ */
+body {
+    
+    margin: 0;
+    padding: 50px 0 0 0;
+    background: #d7dddb;
+}
+
+#bloc_presentation {
+    margin: auto;
+    width: 390px;
+    height: 390px;
+}
+
+h1, p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 180%;
+}
