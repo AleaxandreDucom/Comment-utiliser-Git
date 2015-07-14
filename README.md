@@ -1,5 +1,5 @@
 # Comment utiliser Git
-Une démo d'utilisation de Git avec Github. Ce projet vous permet de prendre en main rapidement Git en association avec Github.
+Une démonstration de l'utilisation de Git avec Github. Ce projet vous permet de prendre en main rapidement Git en association avec Github.
 Les commandes sont directement saisies dans une console. J'utilise terminal sur MAC OS X.
 
 
