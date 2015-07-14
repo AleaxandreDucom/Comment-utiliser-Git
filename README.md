@@ -2,6 +2,8 @@
 Une démonstration de l'utilisation de Git avec Github. Ce projet vous permet de prendre en main rapidement Git en association avec Github.
 Les commandes sont directement saisies dans une console. J'utilise terminal sur MAC OS X.
 
+Je liste les commandes de base. Il existe des commandes plus complexes. Des options peuvent être ajoutées aux commandes de base.
+
 
 ## Mémento des principales commandes Git
 - **git init :** initialisation d'un projet (si le projet est créé depuis github, ne pas utiliser cette commande) ou réinitialisation d'un projet existant
