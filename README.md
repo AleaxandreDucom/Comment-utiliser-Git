@@ -17,6 +17,8 @@ Une démo d'utilisation de Git avec Github
 - **git branch nom_de_la_branche :** créer une branche
 - **git checkout nom_de_la_branche_créée :** se positionner sur la branche créée
 - **git checkout -b nom_de_la_branche :** créer une branche et se positionner sur la branche créée
+- **git push --set-upstream origin branche-test-01 :** envoyer la branche créée sur le remote Github
+- **git push :** envoyer les commit dans la branche créée sur le remote (possibilité d'ommettre origin et nom_de_la_branche)
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
