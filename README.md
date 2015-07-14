@@ -3,7 +3,7 @@ Une démo d'utilisation de Git avec Github
 
 
 ## Mémento des principales commandes Git
-git init        : initialisation d'un projet (si le projet est créé depuis github, ne pas utiliser cette commande) ou réinitialisation d'un projet existant
+*git init*        : initialisation d'un projet (si le projet est créé depuis github, ne pas utiliser cette commande) ou réinitialisation d'un projet existant
 git status : vérifier le statut (si modification de fichier) dans le répertoire de travail)
 git add nom_du_fichier      : ajoute un nouveau fichier (du répertoire de travail) à l'index
 git commit -m "Phrase_explication_détaillée_du_commit" : Ajouter les fichiers de l'index dans un commit
@@ -15,10 +15,12 @@ git clone : https_ssh_adresse_du_repositery_github : raptrier / clôner les sour
 git push origin master : envoyer les modifications des fichiers (le commit) vers github (le remote)
 git pull origin master : récupérer les modifications effectuées par d'autres développeurs sur un remote
 
-
-
-
 cat nom_du_fichier : lire le contenu d'un fichier par l'intermédiaire d'unb terminal
+
+## Actions classiques de base
+1) Coder
+2) Commit
+3) Push
 
 ##Lexique
 Origin : nom du remote par défaut si remote unique dnas un projet
