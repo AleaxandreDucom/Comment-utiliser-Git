@@ -28,7 +28,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git blame nom_du_fichier_à_vérifier :** savoir qui a modifié une ligne de code précise, la commande affiche une liste avec les modifications effectuées sur le fichier ainsi que le nom de la personne qui a fait la modification
 - **git show identifiant_du_sha :** afficher le détail précis des modifications sur un fichier et dans un commit précis. L'identifiant du sha est récupéré lors de l'utilisation de la commande blame. Cet identifiant est placé en début de ligne
 - **git stash :** mettre de côté des modifications sur un fichier en cours d'écriture (temporairement) - sans faire de commit - travailler sur d'autres modifications - permet alors de faire un commit des modifications sans faire de commit sur les modifications mises de côté
-- **git stash pop :** reprendre le développement en cours sur les modifications mises de côté
+- **git stash pop :** reprendre le développement en cours sur les modifications mises de côté - pop supprime les données dans stash
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
