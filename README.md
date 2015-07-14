@@ -23,5 +23,5 @@ cat nom_du_fichier : lire le contenu d'un fichier par l'intermédiaire d'unb ter
 3. Push
 
 ##Lexique
-Origin : nom du remote par défaut si remote unique dnas un projet
-Master : nom de la branche principale d'un repote
+- Origin : nom du remote par défaut si remote unique dnas un projet
+- Master : nom de la branche principale d'un repote
