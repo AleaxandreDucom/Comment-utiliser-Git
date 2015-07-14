@@ -18,7 +18,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git push origin master :** envoyer les modifications des fichiers (le commit) vers github (le remote)
 - **git pull origin master :** récupérer les modifications effectuées par d'autres développeurs sur un remote
 - **git branch nom_de_la_branche :** créer une branche
-- **git checkout nom_de_la_branche_créée :** se positionner sur la branche créée
+- **git checkout nom_de_la_branche_créée :** se positionner sur la branche créée (raccourci de création)
 - **git checkout -b nom_de_la_branche :** créer une branche et se positionner sur la branche créée
 - **git push --set-upstream origin branche-test-01 :** envoyer la branche créée sur le remote Github
 - **git push :** envoyer les commit dans la branche créée sur le remote (possibilité d'ommettre origin et nom_de_la_branche)
@@ -27,6 +27,8 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git push origin :nom_de_la_branche_à_supprimer :** supprimer une branche sur le remote github (distante)
 - **git blame nom_du_fichier_à_vérifier :** savoir qui a modifié une ligne de code précise, la commande affiche une liste avec les modifications effectuées sur le fichier ainsi que le nom de la personne qui a fait la modification
 - **git show identifiant_du_sha :** afficher le détail précis des modifications sur un fichier et dans un commit précis. L'identifiant du sha est récupéré lors de l'utilisation de la commande blame. Cet identifiant est placé en début de ligne
+- **git stash :** mettre de côté des modifications sur un fichier en cours d'écriture (temporairement) - sans faire de commit - travailler sur d'autres modifications - permet alors de faire un commit des modifications sans faire de commit sur les modifications mises de côté
+- **git stash pop :** reprendre le développement en cours sur les modifications mises de côté
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
