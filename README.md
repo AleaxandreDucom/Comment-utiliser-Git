@@ -22,6 +22,8 @@ Une démo d'utilisation de Git avec Github
 - **git merge nom_de_la_branche_à_fusionner :** fusionner les modifications de 2 branches, ici positionné sur master, la branche "nom_de_la_branche_à_fusionner" va fusionner avec la branche master. Attention, rien n'empêche de fusionner master avec une branche secondaire en se positionnant sur une branche secondaire et en codant -> git merge master. Merge ne supprime la branche.
 - **git branch -d nom_de_la_branche_à_supprimer :** supprimer une branche en local
 - **git push origin :nom_de_la_branche_à_supprimer :** supprimer une branche sur le remote github (distante)
+- **git blame nom_du_fichier_à_vérifier :** savoir qui a modifié une ligne de code précise, la commande affiche une liste avec les modifications effectuées sur le fichier ainsi que le nom de la personne qui fait la modification
+- **git show identifiant_du_sha :** afficher le détail précis des modifications sur un fichier et dans un commit précis. L'identifiant du sha est récupéré lors de l'utilisation de la commande blame. Cet identifiant est placé en début de ligne
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
