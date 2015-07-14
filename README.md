@@ -7,16 +7,16 @@ Une démo d'utilisation de Git avec Github
 - **git status :** vérifier le statut, l'état (si modification de fichier) du répertoire de travail (le repository)
 - **git add nom_du_fichier :** ajoute un nouveau fichier (du répertoire de travail) à l'index
 - **git commit -m "Phrase_explication_détaillée_du_commit" :** Ajouter les fichiers de l'index dans un commit
-- **git commit -am "Phrase_explication" :** ajouter les fichiers au repositery, sans le add si fichier est déjà ajouté - update de fichiers
+- **git commit -am "Phrase_explication" :** ajouter les fichiers au repositery, directement sans le add si le fichier est déjà ajouté - update de fichiers
 - **git log :** Voir l'historique des modifications du commit sous forme de liste
 - **git checkout sha_du_commit :** se positionner sur un ancien commit - attention le retour à un commit efface les commits les plus récents - si push après retour
 - **git checkout master :** retour au commit principal - le dernier
-- **git clone :** https_ssh_adresse_du_repositery_github : rapatrier / clôner les sources d'un remote github vers un ordinateur local
+- **git clone https_ssh_adresse_du_repositery_github :** rapatrier / clôner les sources d'un remote github vers un ordinateur local
 - **git push origin master :** envoyer les modifications des fichiers (le commit) vers github (le remote)
 - **git pull origin master :** récupérer les modifications effectuées par d'autres développeurs sur un remote
 - **git branch nom_de_la_branche :** créer une branche
 - **git checkout nom_de_la_branche_créée :** se positionner sur la branche créée
-- **git checkout -b nom_de_la_branche :** créer une branche et se positionner sur la branche créer
+- **git checkout -b nom_de_la_branche :** créer une branche et se positionner sur la branche créée
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
