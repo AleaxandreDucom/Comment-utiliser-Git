@@ -18,9 +18,9 @@ git pull origin master : récupérer les modifications effectuées par d'autres 
 cat nom_du_fichier : lire le contenu d'un fichier par l'intermédiaire d'unb terminal
 
 ## Actions classiques de base
-1) Coder
-2) Commit
-3) Push
+1. Coder
+2. Commit
+3. Push
 
 ##Lexique
 Origin : nom du remote par défaut si remote unique dnas un projet
