@@ -44,3 +44,45 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **Origin :** nom du remote par défaut si remote unique dans un projet
 - **Master :** nom de la branche principale d'un repository
 - **Une branche :** "un autre chemin" pour tester, expérimenter, modifier le code existant du "chemin principal" (master) ou bien crééer une nouvelle fonction sans toucher au code master
+
+## Quelques concepts de Git
+###Qu'est-ce qu'un commit :
+		
+Le commit est la validation (l’enregistrement dans un dépôt sur l’ordinateur de travail) d’un ou plusieurs fichiers qui ont été placés préalablement dans un index. Cet index est préparé et enrichi grâce à la fonction <commit add nom_du_fichier>.
+
+On peut définir le commit comme un instantané (à moment T) ou une capture («figée») des fichiers qui composent un projet - une version d’un projet.
+
+Pour valider les modifications des fichiers placés dans l’index (pour les «figer» dans le temps) on utilise la fonction <git commit>.
+
+Cette opération s’effectue en local.
+
+Les fichiers ne sont pas encore envoyés sur le remote (dépôt, repository ou référentiel) à distance.
+
+Ils seront envoyés grâce à la fonction <git push nom_du_remote nom_de_la_branche>.
+
+
+###À quoi sert la commande git log :
+
+La commande git log permet de voir tout l’historique des commit sous forme de liste.
+
+On trouve dans cette liste pour chaque commit :
+- la clé unique sha du commit,
+- l’auteur du commit,
+- la date du commit,
+- l’explication (normalement clairement détaillée) sous forme de commentaire du pourquoi du commit (création d’un fichier, modification de texte, ajout d’un fonction, d’une définition etc.).
+
+
+###Qu'est-ce qu'une branche :
+
+La branche principale d’un projet, par défaut, est appelée «master»
+
+Cette branche est composée de l’ensemble des commit du projet.
+On peut définir la branche comme étant un pointeur vers le dernier commit en cours.
+
+La branche est une sorte de route linéaire. On peut revenir en arrière et pointer sur un ancien commit pour récupérer une ancienne portion de code ou un fichier écrasé.
+
+Dans cette branche on retrouve l’intégralité des fichiers du projet en cours.
+
+Lorsque l’on souhaite tester un code ou développer une fonction complémentaire on créée une ou plusieurs branches secondaires («parallèles» à la branche master).
+
+Une fois les tests effectués et les contenus validés sur cette ou ces branches secondaires, on peut les fusionner avec la branche principale.
