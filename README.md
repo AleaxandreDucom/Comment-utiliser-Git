@@ -29,7 +29,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git show identifiant_du_sha :** afficher le détail précis des modifications sur un fichier et dans un commit précis. L'identifiant du sha est récupéré lors de l'utilisation de la commande blame. Cet identifiant est placé en début de ligne
 - **git stash :** mettre de côté des modifications sur un fichier en cours d'écriture (temporairement) - sans faire de commit - travailler sur d'autres modifications - permet alors de faire un commit des modifications sans faire de commit sur les modifications mises de côté
 - **git stash pop :** reprendre le développement en cours sur les modifications mises de côté - pop supprime les données dans stash
-- **git remote set-url origin new_url :** modifier l'url du repositery distant - origin ici (si le nom du repositery n'est pas modifié
+- **git remote set-url origin new_url :** modifier l'url du repositery distant - origin ici (si le nom du repositery n'est pas modifié)
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
