@@ -17,6 +17,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git clone https_ssh_adresse_du_repositery_github :** rapatrier / clôner les sources d'un remote github vers un ordinateur local
 - **git push origin master :** envoyer les modifications des fichiers (le commit) vers github (le remote)
 - **git pull origin master :** récupérer les modifications effectuées par d'autres développeurs sur un remote
+- **git pull url_du_repositery :** récupérer les fichiers d'initialisation en local après la création d'un repositery distant
 - **git branch nom_de_la_branche :** créer une branche
 - **git checkout nom_de_la_branche_créée :** se positionner sur la branche créée (raccourci de création)
 - **git checkout -b nom_de_la_branche :** créer une branche et se positionner sur la branche créée
