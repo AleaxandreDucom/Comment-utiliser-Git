@@ -34,6 +34,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git commit --amend -m "nouveau_message" :** modifier le dernier message de commit en local
 - **git push [nom_du_remote nom_de_branche] --force ou -f :** envoyer la modification du dernier message sur le repositery à distance
 - **git remote add [nomcourt] [url] :** Ajoute un dépôt distant au repositery local
+- **git reset [nom_du_fichier] :** Efface le fichier de l'index
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
