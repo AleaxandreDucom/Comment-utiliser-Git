@@ -9,6 +9,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git init :** initialisation d'un projet (si le projet est créé depuis github, ne pas utiliser cette commande) ou réinitialisation d'un projet existant
 - **git status :** vérifier le statut, l'état (si modification de fichier) du répertoire de travail (le repository)
 - **git add nom_du_fichier :** ajoute un nouveau fichier (du répertoire de travail) à l'index
+- **git add . :** ajoute tous les fichiers à l'index
 - **git commit -m "Phrase_explication_détaillée_du_commit" :** Ajouter les fichiers de l'index dans un commit
 - **git commit -am "Phrase_explication" :** ajouter les fichiers au repositery, directement sans le add si le fichier est déjà ajouté - update de fichiers
 - **git log :** Voir l'historique des modifications du commit sous forme de liste
@@ -35,6 +36,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git push [nom_du_remote nom_de_branche] --force ou -f :** envoyer la modification du dernier message sur le repositery à distance
 - **git remote add [nomcourt] [url] :** Ajoute un dépôt distant au repositery local
 - **git reset [nom_du_fichier] :** Efface le fichier de l'index
+- **git reset HEAD [nom_du_fichier] :** Efface le fichier de l'index
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
