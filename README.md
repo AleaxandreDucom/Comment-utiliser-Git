@@ -37,6 +37,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git remote add [nomcourt] [url] :** Ajoute un dépôt distant au repositery local
 - **git reset [nom_du_fichier] :** Efface le fichier de l'index
 - **git reset HEAD [nom_du_fichier] :** Efface le fichier de l'index
+- **git push --set-upstream origin master :** permet d'utiliser la commande simple git push (sans origin master) 
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
