@@ -38,7 +38,7 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git reset [nom_du_fichier] :** Efface le fichier de l'index
 - **git reset HEAD [nom_du_fichier] :** Efface le fichier de l'index
 - **git push --set-upstream origin master :** permet d'utiliser la commande simple git push (sans origin master) 
-- **git rebase -i [numero_commit]** : "naviguer" dans les commit - "retour en arrière" - permet de modifier la description d'un commit par exemple - le mode interactif (i pour interactive) ouvre l'editeur - attention ne jamais modifier un ancien commit public 
+- **git rebase -i [numero_commit]** : "naviguer" dans les commit - "retour en arrière" - permet de modifier la description d'un commit par exemple - le mode interactif (i pour interactive) ouvre l'editeur - attention ne jamais modifier un ancien commit public sur lequel travaille plusieurs personnes 
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
