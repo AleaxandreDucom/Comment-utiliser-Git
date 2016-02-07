@@ -51,6 +51,12 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 2. Commit
 3. Push
 
+## Démarrer un projet
+1. Créer un repository sur Github avec uniquement un fichier README et .gitignore (optionel)
+2. Sur la machine de développement (Ex sur MAMP), dans le dossier htdocs (si git est est configuré), cloner le repository
+3. Pour cela dnas la console -> saisir : git clone [url_https]
+4. Permet ensuite de pusher directement avec -> git push
+
 ##Lexique
 - **Origin :** nom du remote par défaut si remote unique dans un projet
 - **Master :** nom de la branche principale d'un repository
