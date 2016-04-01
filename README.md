@@ -42,6 +42,9 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git rebase -i [numero_commit]** : "naviguer" dans les commit - "retour en arrière" - permet de modifier la description d'un commit par exemple - le mode interactif (i pour interactive) ouvre l'editeur - attention ne jamais modifier un ancien commit public sur lequel travaille plusieurs personnes 
 - **git reset --hard HEAD^** : permet d'annuler un merge branch en local - si le push sur le repository n'est pas fait
 
+## Configurer Git
+- Activer les couleurs : git config --global color.ui false
+
 ## Commandes terminal
 - **mkdir :** créer un répertoire
 - **rm -rf :** effacer un dossier et ses fichiers (tous même les protégés sans alerte)
