@@ -41,9 +41,20 @@ Je liste les commandes de base. Il existe des commandes plus complexes. Des opti
 - **git push --set-upstream origin master :** permet d'utiliser la commande simple git push (sans origin master) 
 - **git rebase -i [numero_commit]** : "naviguer" dans les commit - "retour en arrière" - permet de modifier la description d'un commit par exemple - le mode interactif (i pour interactive) ouvre l'editeur - attention ne jamais modifier un ancien commit public sur lequel travaille plusieurs personnes 
 - **git reset --hard HEAD^** : permet d'annuler un merge branch en local - si le push sur le repository n'est pas fait
+- **git checkout -f**: 'annuler' une suppression - si non commitée
+
+## Mémento pour travailler avec des dépôts distants
+- **git remote :** affiche les dépôts distants
+- **git remote add [remote_name] [url: -> git://github.com/to/project.git :** ajoute un dépôt distant
+- **git fetch [nom-distant -> ex : origin] :** récupère et tire toutes les données sous sa propre branche sans merge (fusion) ajoutées au dépôt distant - recommandé
+- **git pull :** récupère et fusionne une branche distante - si clone récupère origin - plus confortable si certain des modifications
+- **git push [remote -> origin] [branche -> master] :** pousse les modifications sur un dépôt distant (origin) et daans la branche spécifiée (ici master)
+- **git remote show [nom_distant_repository -> origin] :** inspecte le dépôt distant (origin)           
 
 ## Configurer Git
-- Activer les couleurs : git config --global color.ui false
+- **git config --list :** lister la config
+- **git config --global color.ui false :** desactive les couleurs
+- **git config --global color.ui false :** desactive les couleurs
 
 ## Commandes terminal
 - **mkdir :** créer un répertoire
@@ -109,3 +120,8 @@ Dans cette branche on retrouve l’intégralité des fichiers du projet en cours
 Lorsque l’on souhaite tester un code ou développer une fonction complémentaire on créée une ou plusieurs branches secondaires («parallèles» à la branche master).
 
 Une fois les tests effectués et les contenus validés sur cette ou ces branches secondaires, on peut les fusionner avec la branche principale.
+
+
+### Mettre à jour GIT
+- ** git version :** vérifie la version installée
+- Sur MAC, télécharger le dernier dmg ou utiliser homebrew
