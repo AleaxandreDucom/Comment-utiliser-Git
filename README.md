@@ -123,5 +123,5 @@ Une fois les tests effectués et les contenus validés sur cette ou ces branches
 
 
 ### Mettre à jour GIT
-- ** git version :** vérifie la version installée
+- **git version :** vérifie la version installée
 - Sur MAC, télécharger le dernier dmg ou utiliser homebrew
